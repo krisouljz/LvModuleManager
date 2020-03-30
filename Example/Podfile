@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LvModuleManager_Example' do
+  pod 'LvModuleManager', :path => '../'
+
+  target 'LvModuleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
