@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57BA7D8E2432153900A62FCB /* LVFirstTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA7D8D2432153900A62FCB /* LVFirstTestModule.m */; };
+		57BA7D912432155500A62FCB /* LVSecondTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA7D902432155500A62FCB /* LVSecondTestModule.m */; };
+		57BA7D932432174100A62FCB /* ModulesRegister.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57BA7D922432174100A62FCB /* ModulesRegister.plist */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,8 +42,13 @@
 /* Begin PBXFileReference section */
 		07BF4AB7E0F0BFEB3A46EA3B /* Pods_LvModuleManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LvModuleManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F5E7657AAE954C5F240BE0 /* Pods-LvModuleManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvModuleManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LvModuleManager_Tests/Pods-LvModuleManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		392AA4338E726C54273BB9AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		392AA4338E726C54273BB9AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		470D329951DBF80456287677 /* Pods-LvModuleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvModuleManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LvModuleManager_Example/Pods-LvModuleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57BA7D8C2432153900A62FCB /* LVFirstTestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVFirstTestModule.h; sourceTree = "<group>"; };
+		57BA7D8D2432153900A62FCB /* LVFirstTestModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVFirstTestModule.m; sourceTree = "<group>"; };
+		57BA7D8F2432155500A62FCB /* LVSecondTestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVSecondTestModule.h; sourceTree = "<group>"; };
+		57BA7D902432155500A62FCB /* LVSecondTestModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVSecondTestModule.m; sourceTree = "<group>"; };
+		57BA7D922432174100A62FCB /* ModulesRegister.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ModulesRegister.plist; sourceTree = "<group>"; };
 		5A6507EC77AA480D19D6D17B /* Pods-LvModuleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvModuleManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LvModuleManager_Example/Pods-LvModuleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A975F295D00C2D32BC0AFA5 /* Pods_LvModuleManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LvModuleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LvModuleManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvModuleManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +71,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BC06D9EBC47F91156D74BD0 /* LvModuleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LvModuleManager.podspec; path = ../LvModuleManager.podspec; sourceTree = "<group>"; };
+		7BC06D9EBC47F91156D74BD0 /* LvModuleManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LvModuleManager.podspec; path = ../LvModuleManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA6673830B18ACDEB7040E65 /* Pods-LvModuleManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvModuleManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LvModuleManager_Tests/Pods-LvModuleManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC8CD92051BF826E1FADB8C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC8CD92051BF826E1FADB8C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,11 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				57BA7D8C2432153900A62FCB /* LVFirstTestModule.h */,
+				57BA7D8D2432153900A62FCB /* LVFirstTestModule.m */,
+				57BA7D8F2432155500A62FCB /* LVSecondTestModule.h */,
+				57BA7D902432155500A62FCB /* LVSecondTestModule.m */,
+				57BA7D922432174100A62FCB /* ModulesRegister.plist */,
 			);
 			name = "Example for LvModuleManager";
 			path = LvModuleManager;
@@ -257,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				57BA7D932432174100A62FCB /* ModulesRegister.plist in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -357,7 +372,9 @@
 			files = (
 				6003F59E195388D20070C39A /* LVAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LVViewController.m in Sources */,
+				57BA7D8E2432153900A62FCB /* LVFirstTestModule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				57BA7D912432155500A62FCB /* LVSecondTestModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

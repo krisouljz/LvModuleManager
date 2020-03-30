@@ -1,0 +1,16 @@
+PODS:
+  - LvModuleManager (0.1.0)
+
+DEPENDENCIES:
+  - LvModuleManager (from `../`)
+
+EXTERNAL SOURCES:
+  LvModuleManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LvModuleManager: fd6cc3d68b821734acda4e0760bdfe793073a3d6
+
+PODFILE CHECKSUM: 9329ec8840d011ef2afb0c7da58de2b651f71c42
+
+COCOAPODS: 1.5.3

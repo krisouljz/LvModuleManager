@@ -1,0 +1,6 @@
+framework module LvModuleManager {
+  umbrella header "LvModuleManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
